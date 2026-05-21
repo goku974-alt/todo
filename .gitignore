@@ -1,0 +1,47 @@
+```php
+# Dependencies
+vendor/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP specific
+*.php~
+*.php.bak
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.phar
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Composer (PHP dependency manager)
+composer.lock
+vendor/composer/
+composer.phar
+```
